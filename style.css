@@ -1,0 +1,41 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color:#eee;
+}
+
+.header {
+    min-height: 60px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: white;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+}
+
+.author-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.end {
+    min-height: 1px;
+}
