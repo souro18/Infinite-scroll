@@ -1,5 +1,5 @@
 const postContainer = document.getElementById('post-container');
-const  HOST_URL = 'http://message-list.appspot.com/';
+const  HOST_URL = 'https://message-list.appspot.com/';
 let token;
 
 const createList = messages => {
