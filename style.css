@@ -39,3 +39,6 @@ body {
 .end {
     min-height: 1px;
 }
+#loader {
+    text-align: center;
+}

@@ -1,9 +1,9 @@
-(function() {
+document.addEventListener('DOMContentLoaded', function() {
     const postContainer = document.getElementById('post-container');
     const loader = document.getElementById('loader');
     const  HOST_URL = 'https://message-list.appspot.com/';
     let token;
-
+    console.log('loaded');
     const createList = messages => {
         loader.style.display = 'none';
         messages.forEach((message, id) => {
@@ -55,4 +55,4 @@
         observer.observe(card);
     }
     getPost();
-})();
+});
